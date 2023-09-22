@@ -1,21 +1,23 @@
 /* Add CSS rule to universal selector */
 
-
-
-/* Add CSS rule to class selector */
-
-
+* {}
 
 /* Add CSS rule to class selector */
 
-
-
-/* Add CSS rule to class selector */
-
-
+.navbar-container {}
 
 /* Add CSS rule to class selector */
 
-
+.navbar {}
 
 /* Add CSS rule to class selector */
+
+.home {}
+
+/* Add CSS rule to class selector */
+
+.about {}
+
+/* Add CSS rule to class selector */
+
+.news {}
