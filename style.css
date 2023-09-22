@@ -9,24 +9,54 @@
 
 /* Add CSS rule to class selector */
 
-.navbar-container {}
+.navbar-container {
+    display: flex;
+    border: 3px solid green;
+    height: 100px;
+}
 
 /* Add CSS rule to class selector */
 
-.navbar {}
+.navbar {
+    display: flex;
+    border: 3px solid orange;
+    flex: 1;
+}
 
 /* Add CSS rule to class selector */
 
-.home {}
+.home {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Add CSS rule to class selector */
 
-.about {}
+.about {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 /* Add CSS rule to class selector */
 
-.news {}
+.news {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /* Add CSS rule to class selector */
 
-.contact {}
+.contact {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
