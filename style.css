@@ -19,7 +19,7 @@
 
 .navbar {
     display: flex;
-    border: 3px solid orange;
+    border: 3px solid #dbdbdb;
     flex: 1;
 }
 
@@ -30,6 +30,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid white;
 }
 
 /* Add CSS rule to type selector */
+
+a {
+    display: flex;
+    flex: 1;
+    align-self: flex-start;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
