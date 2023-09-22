@@ -25,36 +25,7 @@
 
 /* Add CSS rule to class selector */
 
-.home {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Add CSS rule to class selector */
-
-.about {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-/* Add CSS rule to class selector */
-
-.news {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-/* Add CSS rule to class selector */
-
-.contact {
+.home, .about, .news, .contact {
     flex: 1;
     display: flex;
     justify-content: center;
