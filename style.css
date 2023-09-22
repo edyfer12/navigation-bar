@@ -11,7 +11,7 @@
 .navbar-container {
     display: flex;
     border: 3px solid #e4e7e4;
-    height: 23px;
+    height: 63px;
 }
 
 /* Add CSS rule to class selector */
@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 8px;
+    font-size: 18px;
     border-right: 1px solid #b7b6b6;
 }
 
@@ -42,7 +42,7 @@ a {
     justify-content: center;
     text-decoration: none;
     color: black;
-    height: 17px;
+    height: 57px;
 }
 
 /* Add CSS rule to type selector with pseudo class */
