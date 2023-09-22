@@ -44,3 +44,7 @@ a {
     color: black;
     height: 17px;
 }
+
+a:hover {
+    background-color: #e7e7e7c9;
+}
