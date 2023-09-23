@@ -47,8 +47,7 @@ a {
 /* Add CSS rule to descendant combinator */
 
 .two a {
-    border: 2px solid lightgrey;
-    margin: 0 1px;
+    margin: 0 12px;
 }
 
 /* Stylize the class selector */
