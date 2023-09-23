@@ -80,3 +80,5 @@ a {
 .navbar-container > *:not(:last-child) {
     border-right: 2px solid lightgrey;
 }
+
+/* Stylize grouping selectors  */
