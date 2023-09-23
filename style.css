@@ -71,4 +71,8 @@ a {
 
 /* Stylize the chaining selector */
 
-.navbar-container.three {}
+.navbar-container.three {
+    justify-content: flex-start;
+}
+
+/* Stylize the descendant combinator selector */
