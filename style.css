@@ -58,3 +58,5 @@ a {
 }
 
 /* Stylize the grouping selectors */
+
+.beginning, .middle > *:not(:last-child){}
