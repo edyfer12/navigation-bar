@@ -30,8 +30,8 @@ a {
     text-decoration: none;
     color: black;
     padding: 7px 25px;
-    margin: 0px 25px;
-    font-size:18px;
+    margin: 0px 10px;
+    font-size: 18px;
 }
 
 .navbar > :not(:last-child) {
@@ -44,11 +44,6 @@ a {
     justify-content: space-between;
 }
 
-/* Add CSS rule to descendant combinator */
-
-.two a {
-    margin: 0 12px;
-}
 
 /* Stylize the class selector */
 
@@ -68,17 +63,13 @@ a {
 .end {
     border-left: 2px solid lightgrey;
 }
+
 /* Stylize the chaining selector */
 
 .navbar-container.three {
     justify-content: flex-start;
 }
 
-/* Stylize the descendant combinator selector */
-
-.navbar-container > *:not(:last-child) {
-    border-right: 2px solid lightgrey;
-}
 
 /* Stylize the class */
 
@@ -94,17 +85,15 @@ a {
     width: 1350px;
 }
 
-/* Stylize the descendant combinator */
-
-.end > *:not(:last-child) {
-    border-right: 2px solid lightgray;
-}
-
 
 /* Stylize the class selector  */
 
-.five {}
+.five {
+    justify-content: space-around;
+}
 
 /* Stylize the descendant combinator, except the last child  */
 
-.five div {}
+.five div {
+    border-right: 2px solid lightgrey;
+}
