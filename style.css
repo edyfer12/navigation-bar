@@ -77,4 +77,6 @@ a {
 
 /* Stylize the descendant combinator selector */
 
-.navbar-container div {}
+.navbar-container > *:not(:last-child) {
+    border-right: 2px solid lightgrey;
+}
