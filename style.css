@@ -58,7 +58,7 @@ a {
 
 /* Stylize the grouping selectors */
 
-.beginning, .middle > *:not(:last-child){
+.beginning, .middle .about, .middle .news {
     border-right: 2px solid lightgray;
 }
 
