@@ -136,3 +136,27 @@ a {
 }
 
 /* Stylize the descendant combinators, except the last child */
+
+.six .beginning div:not(:last-child) {
+    border-right: 2px solid lightgrey;
+}
+
+/* Stylize the descendant combinator */
+
+.six .beginning {
+    justify-content: flex-start;
+}
+
+/* Stylize the descendant combinator */
+
+.six .end {
+    border-left: none;
+    justify-content: flex-end;
+    width: 1240px;
+}
+
+/* Stylize the descendant combinator */
+
+.six .end div:not(:last-child) {
+    border-right: 2px solid lightgrey;
+}
