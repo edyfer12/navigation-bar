@@ -85,17 +85,25 @@ a {
 
 .home, .about, .news, .press, .contact {}
 
-/* Stylize the descendant combinator */
+/* Stylize the class */
 
-
-
-/* Stylize the descendant combinator */
-
-
+.four {
+    justify-content: flex-start;
+}
 
 /* Stylize the descendant combinator */
 
+.four .end {
+    display: flex;
+    justify-content: flex-end;
+    width: 1350px;
+}
 
+/* Stylize the descendant combinator */
+
+.end > *:not(:last-child) {
+    border-right: 2px solid lightgray;
+}
 
 /* Stylize the descendant combinator */
 
