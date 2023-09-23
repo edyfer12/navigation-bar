@@ -109,7 +109,9 @@ a {
 /* Stylize the descendant combinator except last child */
 
 .five div a:not(last-child) {
-    margin-right: 87px;
+    margin-right: 55px;
     margin-left: 0px;
-    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: center;
 }
