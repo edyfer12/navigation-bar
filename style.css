@@ -44,7 +44,7 @@ a {
     justify-content: flex-start;
 }
 
-/* Add CSS rule to type selector */
+/* Add CSS rule to descendant combinator */
 
 .two a {
     border: 2px solid lightgrey;
