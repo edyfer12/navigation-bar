@@ -97,3 +97,10 @@ a {
 .five div {
     border-right: 2px solid lightgrey;
 }
+
+
+/* Stylize the descendant combinator except last child */
+
+.three div:not(:last-child) {
+    border-right: 2px solid lightgrey;
+}
