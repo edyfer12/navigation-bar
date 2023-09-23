@@ -41,7 +41,7 @@ a {
 /* Add CSS rule to chaining selector */
 
 .navbar-container.two {
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 /* Add CSS rule to descendant combinator */
