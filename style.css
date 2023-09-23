@@ -1,52 +1,37 @@
 /* Add CSS rule to universal selector */
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 /* Add CSS rule to class selector */
 
 .navbar-container {
     display: flex;
-    border: 3px solid #e4e7e4;
-    height: 63px;
+    border-bottom: 1px solid #e4e7e4;
+    padding: 15px 0;
+    justify-content: center;
 }
 
 /* Add CSS rule to class selector */
 
 .navbar {
     display: flex;
-    flex: 1;
-}
-
-/* Add CSS rule to class selector */
-
-.home, .about, .news, .contact {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    border-right: 1px solid #b7b6b6;
+    justify-content: flex-start;
 }
 
 /* Add CSS rule to type selector */
 
 a {
     display: flex;
-    flex: 1;
-    align-self: flex-start;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
     color: black;
-    height: 57px;
+    margin: 10px 50px;
 }
 
-/* Add CSS rule to type selector with pseudo class */
-
-a:hover {
-    background-color: #e7e7e7c9;
+.navbar > :not(:last-child) {
+    border-right: 2px solid #e4e7e4;
 }
