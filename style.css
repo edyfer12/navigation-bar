@@ -86,6 +86,12 @@ a {
 }
 
 
+/* Stylize the descendant combinator */
+
+.end div:not(:last-child) {
+    border-right: 2px solid lightgrey;
+}
+
 /* Stylize the class selector  */
 
 .five {
