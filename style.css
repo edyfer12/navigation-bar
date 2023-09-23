@@ -62,6 +62,12 @@ a {
     border-right: 2px solid lightgray;
 }
 
+
+/* Stylize type selector */
+
+.end {
+    border-left: 2px solid lightgrey;
+}
 /* Stylize the chaining selector */
 
 .navbar-container.three {
