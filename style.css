@@ -81,10 +81,6 @@ a {
     border-right: 2px solid lightgrey;
 }
 
-/* Stylize grouping selectors  */
-
-.home, .about, .news, .press, .contact {}
-
 /* Stylize the class */
 
 .four {
@@ -104,7 +100,5 @@ a {
 .end > *:not(:last-child) {
     border-right: 2px solid lightgray;
 }
-
-/* Stylize the descendant combinator */
 
 
