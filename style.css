@@ -76,3 +76,5 @@ a {
 }
 
 /* Stylize the descendant combinator selector */
+
+.navbar-container div {}
