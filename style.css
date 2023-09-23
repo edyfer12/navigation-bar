@@ -104,3 +104,12 @@ a {
 .three div:not(:last-child) {
     border-right: 2px solid lightgrey;
 }
+
+
+/* Stylize the descendant combinator except last child */
+
+.five div a:not(last-child) {
+    margin-right: 87px;
+    margin-left: 0px;
+    text-align: center;
+}
