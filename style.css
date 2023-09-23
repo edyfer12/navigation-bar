@@ -95,5 +95,10 @@ a {
     width: 1350px;
 }
 
+/* Stylize the descendant combinator */
+
+.end > *:not(:last-child) {
+    border-right: 2px solid lightgray;
+}
 
 
