@@ -45,3 +45,8 @@ a {
 }
 
 /* Add CSS rule to type selector */
+
+.two a {
+    border: 2px solid lightgrey;
+    margin: 0 1px;
+}
