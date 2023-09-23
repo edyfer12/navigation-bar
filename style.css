@@ -124,8 +124,13 @@ a {
 
 /* Stylize the class */
 
-.six{}
+.six {
+    display: flex;
+    justify-content: flex-start;
+}
 
 /* Stylize the descendant combinators */
 
-.six .beginning, .six.end{}
+.six .beginning, .six .end {
+    display:flex;
+}
