@@ -100,7 +100,7 @@ a {
 
 /* Stylize the descendant combinator, except the last child  */
 
-.five div {
+.five div:not(:last-child) {
     border-right: 2px solid lightgrey;
 }
 
