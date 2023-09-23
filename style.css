@@ -39,3 +39,5 @@ a {
 }
 
 /* Add CSS rule for the descendant combinator */
+
+.navbar div {}
