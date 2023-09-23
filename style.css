@@ -59,4 +59,13 @@ a {
 
 /* Stylize the grouping selectors */
 
-.beginning, .middle > *:not(:last-child){}
+.beginning, .middle > *:not(:last-child){
+    border-right: 2px solid lightgray;
+}
+
+
+/* Stylize the class */
+
+.end {
+    border-left: 2px solid lightgray;
+}
