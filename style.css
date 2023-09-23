@@ -145,6 +145,7 @@ a {
 
 .six .beginning {
     justify-content: flex-start;
+    border-right:none;
 }
 
 /* Stylize the descendant combinator */
