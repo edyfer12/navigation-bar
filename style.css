@@ -124,7 +124,8 @@ a {
 
 /* Stylize the class */
 
-
+.six{}
 
 /* Stylize the descendant combinators */
 
+.six .beginning, .six.end{}
