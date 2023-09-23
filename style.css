@@ -40,3 +40,6 @@ a {
 
 /* Add CSS rule to chaining selector */
 
+.navbar-container.two {
+    justify-content: flex-start;
+}
