@@ -161,3 +161,8 @@ a {
 .six .end div:not(:last-child) {
     border-right: 2px solid lightgrey;
 }
+
+/* Stylize the descendant combinator */
+
+
+/* Stylize the descendant combinator */
