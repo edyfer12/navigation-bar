@@ -184,18 +184,20 @@ a {
 /* Add CSS rule for the descendant combinator except for the last child */
 
 .seven .beginning div:not(:last-child) {
-    border
+    border-right:2px solid lightgrey;
 }
 
 /* Add CSS rule for the descendant combinator */
 
 .seven .beginning {
-
+    display: flex;
+    border: none;
 }
 
 /* Add CSS rule for the descendant combinator */
 
 .seven .end {
-
+    display:flex;
+    border-left: none;
 }
 
