@@ -164,5 +164,9 @@ a {
 
 /* Stylize the descendant combinator */
 
+.seven .beginning {}
+
 
 /* Stylize the descendant combinator */
+
+.seven .end {}
