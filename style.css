@@ -164,9 +164,13 @@ a {
 
 /* Stylize the descendant combinator */
 
-.seven .beginning {}
+.seven .beginning {
+    display: flex;
+}
 
 
 /* Stylize the descendant combinator */
 
-.seven .end {}
+.seven .end {
+    display: flex;
+}
