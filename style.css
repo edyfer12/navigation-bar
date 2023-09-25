@@ -183,8 +183,8 @@ a {
 
 /* Add CSS rule for the descendant combinator except for the last child */
 
-.seven .beginning .div:not(:last-child) {
-
+.seven .beginning div:not(:last-child) {
+    border
 }
 
 /* Add CSS rule for the descendant combinator */
@@ -196,6 +196,6 @@ a {
 /* Add CSS rule for the descendant combinator */
 
 .seven .end {
-    
+
 }
 
