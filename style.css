@@ -26,12 +26,11 @@
 /* Add CSS rule to the descendant combinator */
 
 .flex-item a {
-    height: 100%;
     display: block;
     text-align: center;
     text-decoration: none;
     color: black;
-    padding: 38px 0;
+    padding: 29px 0;
 }
 
 /* Add CSS rule to the type selector with pseudo class */
