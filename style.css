@@ -41,8 +41,8 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    gap:10px;
-    margin: 0 10px;
+    gap: 70px;
+    margin: 0 50px;
 }
 
 /* Add CSS rule to the type selector */
