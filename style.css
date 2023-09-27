@@ -37,7 +37,7 @@
 /* Add CSS rule to the descendant combinator */
 
 .third a {
-    color: white;
+    background: black;
 }
 
 /* Add CSS rule to the class */
