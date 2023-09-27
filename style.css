@@ -1,17 +1,19 @@
 /* Add styles to the universal selector  */
 
-
-
-/* Add CSS rule to the class */
-
-
+* {}
 
 /* Add CSS rule to the class */
 
+.flex-container {}
 
+/* Add CSS rule to the class */
+
+.flex-item {}
 
 /* Add CSS rule to the descendant combinator */
 
-
+.flex-item a {}
 
 /* Add CSS rule to the type selector with pseudo class */
+
+.a:hover {}
