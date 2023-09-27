@@ -77,4 +77,8 @@ a:hover {
 
 /* Add CSS rule to the class */
 
-.flex-inner {}
+.flex-inner {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+}
