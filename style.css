@@ -34,12 +34,6 @@
     padding: 29px 0;
 }
 
-/* Add CSS rule to the descendant combinator */
-
-.third a {
-    background: black;
-}
-
 /* Add CSS rule to the class */
 
 .flex-inner {
