@@ -44,12 +44,6 @@
     margin: 0 10px;
 }
 
-/* Add CSS rule to the chaining selector */
-
-.flex-item.third {
-    background-color: black;
-}
-
 /* Add CSS rule to the type selector */
 
 a {
