@@ -79,6 +79,6 @@ a:hover {
 
 .flex-inner {
     display: flex;
-    border: 1px solid black;
-    justify-content: center;
+    justify-content: space-between;
+    width: 1465px;
 }
