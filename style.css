@@ -14,6 +14,7 @@
     justify-content: center;
     background: indianred;
     padding: 15px 0;
+    flex-wrap: wrap;
 }
 
 /* Add CSS rule to the class */
@@ -32,7 +33,9 @@
     justify-content: center;
     text-decoration: none;
     color: white;
-    padding: 20px 0;
+    height: 50px;
+    align-items: center;
+    text-align: center;
 }
 
 /* Add CSS rule to the class */
