@@ -68,3 +68,5 @@ a:hover {
 .third a:hover {
     background: none;
 }
+
+/* Add CSS rule to the descendant combinator */
