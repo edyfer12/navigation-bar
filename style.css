@@ -22,6 +22,8 @@
 .flex-item {
     flex: 1;
     background: black;
+    border: 3px solid lightcoral;
+    border-radius: 2px;
 }
 
 /* Add CSS rule to the descendant combinator */
@@ -31,8 +33,7 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    height: 54px;
-    padding: 18px 0;
+    padding: 13px 0;
 }
 
 /* Add CSS rule to the class */
