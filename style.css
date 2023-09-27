@@ -46,7 +46,8 @@
 .flex-inner {
     display: flex;
     justify-content: space-between;
-    width: 1465px;
+    flex: 1;
+    margin: 0 10px;
 }
 
 /* Add CSS rule to the chaining selector */
