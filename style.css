@@ -34,18 +34,6 @@
     padding: 29px 0;
 }
 
-/* Add CSS rule to the type selector with pseudo class */
-
-.first a:hover, .second a:hover {
-    background-color: #ece6e6;
-}
-
-/* Add CSS rule to the pseudo class */
-
-.third a:hover {
-    background: none;
-}
-
 /* Add CSS rule to the descendant combinator */
 
 .third a {
