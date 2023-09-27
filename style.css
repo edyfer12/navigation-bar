@@ -56,3 +56,8 @@
 }
 
 /* Add CSS rule to the type selector */
+
+a {
+    font-weight: bolder;
+    font-size: 18px;
+}
