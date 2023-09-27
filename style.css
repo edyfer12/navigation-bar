@@ -70,3 +70,7 @@ a:hover {
 }
 
 /* Add CSS rule to the descendant combinator */
+
+.third a {
+    color:white;
+}
