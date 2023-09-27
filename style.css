@@ -39,30 +39,6 @@ a:hover {
     background-color: #ece6e6;
 }
 
-/* Add CSS rule to the chaining selector */
-
-.flex-item.first {
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-}
-
-/* Add CSS rule to the chaining selector */
-
-.flex-item.second {
-    border-bottom: none;
-    border-top: none;
-}
-
-/* Add CSS rule to the chaining selector */
-
-.flex-item.third {
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
-    background: black;
-}
-
 /* Add CSS rule to the pseudo class */
 
 .third a:hover {
