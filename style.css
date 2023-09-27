@@ -61,3 +61,7 @@
 }
 
 /* Add CSS rule to the chaining selector */
+
+.flex-item.third {
+    background-color: black;
+}
