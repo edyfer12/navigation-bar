@@ -49,7 +49,8 @@ a:hover {
 /* Add CSS rule to the descendant combinator */
 
 .third a {
-    color:white;
+    color: white;
+    background: black;
 }
 
 /* Add CSS rule to the class */
