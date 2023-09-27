@@ -35,7 +35,7 @@
 
 /* Add CSS rule to the type selector with pseudo class */
 
-a:hover {
+.first a:hover, .second a:hover {
     background-color: #ece6e6;
 }
 
